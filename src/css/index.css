@@ -1,0 +1,31 @@
+body {
+  background-color: aqua;
+}
+#headers {
+  display: grid;
+  justify-content: center;
+}
+#header {
+  justify-self: center;
+}
+#links {
+  font-size: 2rem;
+}
+#links > strong > ul > li > a {
+  color: lightcoral;
+  text-decoration: none;
+}
+
+#links > strong > ul > li {
+  list-style: none;
+}
+
+#links > strong > ul > li > ul > li > a {
+  color: lightcoral;
+  text-decoration: none;
+}
+
+footer {
+  display: grid;
+  justify-content: center;
+}
